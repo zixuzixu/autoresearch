@@ -22,3 +22,4 @@ f8ff7a1	0.998129	47.4	discard	softcap 15->10 (too restrictive)
 850bda9	1.007714	47.4	discard	SwiGLU MLP (8/3 ratio) replacing relu^2
 3155cd7	0.996500	47.4	discard	FINAL_LR_FRAC 0.0->0.1 (full decay to zero is better)
 9b8b382	1.006658	46.1	discard	remove value embeddings (they help despite the cost)
+a01f925	1.011715	47.4	discard	Muon ns_steps 5->3 (less precise orthogonalization hurts)
