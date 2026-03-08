@@ -73,3 +73,4 @@ a8def63	0.995543	47.4	discard	short_window seq/4 (faster but loses too much cont
 a8ee9f3	0.998889	47.4	discard	seed 42->137 (seed 42 is better or luckier)
 8b7f42e	0.999816	47.4	discard	lm_head init std 0.001->0.01 (smaller init is better)
 b56d43d	0.998001	47.4	discard	Adam beta2 0.95->0.90 (0.95 is the sweet spot)
+dccac47	0.993280	33.5	discard	depth 10 + matrix LR 0.10 (still not enough capacity)
