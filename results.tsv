@@ -40,3 +40,4 @@ c5d2f9f	1.014132	55.1	discard	ASPECT_RATIO 64->72 (wider but fewer steps in 5 mi
 ce19c10	1.006015	47.4	discard	remove softcap (logits need capping for stability)
 198d9b5	0.999862	47.4	discard	softcap 15->20 (15 is the sweet spot)
 0bb8642	0.991964	33.5	discard	depth 12->10 (close but not enough capacity)
+338967b	0.996234	43.8	discard	depth 12->11 (still less capacity than depth 12)
