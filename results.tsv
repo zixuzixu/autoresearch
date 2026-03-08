@@ -14,3 +14,4 @@ f72f620	1.020695	63.9	discard	depth 12->14 (still too slow to converge)
 0473dea	0.996355	47.4	keep	remove weight decay 0.2->0.0 (simplification)
 1172c2f	0.991073	47.4	keep	matrix LR 0.06->0.08
 bc8444a	1.001818	47.4	discard	matrix LR 0.08->0.10 (too high)
+e0b622d	0.996634	42.8	discard	MLP ratio 4x->3x (less capacity hurts more than extra steps help)
