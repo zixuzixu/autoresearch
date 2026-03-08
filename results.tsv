@@ -2,3 +2,4 @@ commit	val_bpb	memory_gb	status	description
 6111929	1.057505	44.0	keep	baseline
 bfbc5d4	1.025710	94.0	keep	depth 8->12
 5ec92e9	1.024034	94.0	keep	matrix LR 0.04->0.06
+4899c38	1.034811	94.0	discard	add 10% warmup ratio
