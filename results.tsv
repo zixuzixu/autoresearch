@@ -18,3 +18,4 @@ e0b622d	0.996634	42.8	discard	MLP ratio 4x->3x (less capacity hurts more than ex
 2d3c297	0.998108	47.4	discard	window pattern SSSL->SL (more long-range but slower)
 75f2ea2	1.003364	47.4	discard	softcap 15->30 (too permissive)
 f8ff7a1	0.998129	47.4	discard	softcap 15->10 (too restrictive)
+67768a4	0.998491	47.4	discard	Adam beta1 0.8->0.9 (too much momentum)
