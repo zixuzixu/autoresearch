@@ -47,3 +47,4 @@ ff30bc7	1.001927	47.4	discard	resid_lambdas LR 10x higher (too much residual ada
 d3dfccf	0.996225	47.4	discard	matrix LR 0.08->0.07 (0.08 is still the sweet spot)
 b00381d	0.998774	47.4	discard	Adam beta1 0.8->0.7 (0.8 is the sweet spot)
 9d12718	0.997973	47.4	discard	embedding LR 0.6->0.8 (too high)
+d59e3d1	1.006867	47.4	discard	Muon momentum warmup target 0.95->0.98 (too much momentum)
