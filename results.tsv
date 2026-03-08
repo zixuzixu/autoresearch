@@ -8,3 +8,4 @@ bfbc5d4	1.025710	94.0	keep	depth 8->12
 53135ba	1.025145	94.0	discard	embedding LR 0.6->1.0
 cf5d9cf	1.074049	94.0	discard	batch size 2^19->2^20 (too few steps)
 ee02c99	1.003286	93.6	keep	batch size 2^19->2^18 (more steps)
+a9104a2	1.003192	47.4	keep	batch 2^17 + device_batch 64 (even more steps + half VRAM)
