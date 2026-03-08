@@ -12,3 +12,4 @@ a9104a2	1.003192	47.4	keep	batch 2^17 + device_batch 64 (even more steps + half 
 0ec7412	1.042536	83.0	discard	depth 12->16 (too big to converge in 5 min)
 f72f620	1.020695	63.9	discard	depth 12->14 (still too slow to converge)
 0473dea	0.996355	47.4	keep	remove weight decay 0.2->0.0 (simplification)
+1172c2f	0.991073	47.4	keep	matrix LR 0.06->0.08
