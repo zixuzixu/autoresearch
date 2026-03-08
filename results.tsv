@@ -52,3 +52,4 @@ d59e3d1	1.006867	47.4	discard	Muon momentum warmup target 0.95->0.98 (too much m
 cb2fe6a	1.006752	42.9	discard	parallel attn+MLP PaLM-style (loses sequential benefit)
 bf40456	0.997017	47.4	discard	softcap 15->12 (15 remains optimal)
 c14d84d	1.001838	47.4	discard	RoPE base 10000->1000 (standard base is better)
+2ed0710	0.997802	47.4	discard	window pattern SSSL->SSSSL (less long-range attention hurts)
