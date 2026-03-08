@@ -30,3 +30,4 @@ a01f925	1.011715	47.4	discard	Muon ns_steps 5->3 (less precise orthogonalization
 ab22d60	0.997524	47.4	discard	embedding LR 0.6->0.4 (0.6 is the sweet spot)
 e057567	0.997801	47.4	discard	SCALAR_LR 0.5->1.0 (overshoots layer scaling)
 62bb022	1.003443	47.4	discard	z-loss 1e-4 regularizer (softcap already handles logit scale)
+0e78d52	0.997779	47.4	discard	Muon momentum 0.95->0.90 (default momentum is better)
