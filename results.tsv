@@ -27,3 +27,4 @@ a01f925	1.011715	47.4	discard	Muon ns_steps 5->3 (less precise orthogonalization
 5859958	0.999352	47.4	discard	matrix LR 0.08->0.09 (still too high)
 9d1e410	1.007176	47.5	discard	HEAD_DIM 128->64 (12 heads worse than 6 larger heads)
 4f08c77	1.333312	51.4	discard	label smoothing 0.1 (train/eval objective mismatch)
+ab22d60	0.997524	47.4	discard	embedding LR 0.6->0.4 (0.6 is the sweet spot)
