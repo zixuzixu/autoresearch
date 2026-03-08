@@ -35,3 +35,4 @@ d2f3fe7	0.999414	24.3	discard	batch 2^17->2^16 (too small - gradient noise domin
 6c3cf41	0.998653	47.4	discard	Adam beta2 0.95->0.99 (0.95 is better for short training)
 9cd7c92	0.997392	47.4	discard	warmdown ratio 0.5->0.6 (0.5 is the sweet spot)
 c5d2f9f	1.014132	55.1	discard	ASPECT_RATIO 64->72 (wider but fewer steps in 5 min)
+8983296	0.998723	47.4	discard	Muon beta2 0.95->0.99 (0.95 better for short training)
