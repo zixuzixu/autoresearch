@@ -25,3 +25,4 @@ f8ff7a1	0.998129	47.4	discard	softcap 15->10 (too restrictive)
 a01f925	1.011715	47.4	discard	Muon ns_steps 5->3 (less precise orthogonalization hurts)
 08889c9	0.996692	47.4	discard	unembedding LR 0.004->0.008
 5859958	0.999352	47.4	discard	matrix LR 0.08->0.09 (still too high)
+9d1e410	1.007176	47.5	discard	HEAD_DIM 128->64 (12 heads worse than 6 larger heads)
