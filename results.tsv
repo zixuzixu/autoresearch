@@ -64,3 +64,4 @@ a358eb0	0.999191	47.4	discard	Muon ns_steps 5->4 (precision matters more than sp
 d4a42f5	0.999547	47.4	discard	embedding init std 1.0->0.5 (default init is better)
 b384e7b	1.000113	47.4	discard	SCALAR_LR 0.5->0.3 (0.5 is the sweet spot)
 4e5840c	0.997328	47.4	discard	ve_gate_channels 32->128 (more channels don't help)
+d4796ac	1.004145	45.3	discard	remove x0 residual (it helps model quality)
