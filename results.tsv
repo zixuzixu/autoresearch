@@ -29,3 +29,4 @@ a01f925	1.011715	47.4	discard	Muon ns_steps 5->3 (less precise orthogonalization
 4f08c77	1.333312	51.4	discard	label smoothing 0.1 (train/eval objective mismatch)
 ab22d60	0.997524	47.4	discard	embedding LR 0.6->0.4 (0.6 is the sweet spot)
 e057567	0.997801	47.4	discard	SCALAR_LR 0.5->1.0 (overshoots layer scaling)
+62bb022	1.003443	47.4	discard	z-loss 1e-4 regularizer (softcap already handles logit scale)
